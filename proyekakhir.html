@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengelolaan Sampah Digital</title>
+
+    <link rel="stylesheet" href="proyekakhir.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Sistem Pengelolaan Sampah Digital</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#jadwal">Penjadwalan</a>
+            <a href="#profil">Profil</a>
+            <a href="#edukasi">Edukasi</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2 id="home">Selamat Datang di Sistem Pengelolaan Sampah Digital</h2>
+            <p>
+                Platform ini membantu masyarakat mengelola sampah dengan lebih efektif dan berkelanjutan. 
+                Dengan teknologi digital, kami memberikan solusi cerdas untuk melacak, memilah, 
+                dan mendaur ulang sampah agar dapat memberikan dampak positif bagi lingkungan.
+            </p>
+            <button onclick="showAlert()">Pelajari Lebih Lanjut</button>
+            <div class="slideshow">
+                <img src="7q0dizm831bxmp9.jpeg" alt="Gambar 1" class="slide" width="50px">
+                <img src="20240514165940.jpg" alt="Gambar 2" class="slide">
+                <img src="sedang_1555380245WhatsApp Image 2019-04-10 at 21.01.30.jpeg" alt="Gambar 3" class="slide">
+            </div>
+        </section>
+
+        <!-- Layanan Kami -->
+            <section id="services">
+                <h3>Layanan Kami</h3>
+                <div class="service-container">
+                    <div class="service-card">
+                        <h4>Penjemputan Sampah</h4>
+                        <p>Layanan penjemputan sampah langsung dari rumah Anda untuk memudahkan pengelolaan sampah.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Program Edukasi</h4>
+                        <p>Edukasi dan pelatihan pengelolaan sampah untuk masyarakat agar lebih peduli lingkungan.</p>
+                    </div>
+                    <div class="service-card">
+                        <h4>Bank Sampah Digital</h4>
+                        <p>Bank sampah berbasis digital yang membantu Anda menabung melalui sampah yang dikumpulkan.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Berita dan Artikel Terkini -->
+            <section id="news">
+                <h3>Berita dan Artikel Terkini</h3>
+                <div class="news-container">
+                    <div class="news-card">
+                        <h4>Peningkatan Kesadaran Sampah Plastik</h4>
+                        <p>Artikel yang membahas kesadaran masyarakat tentang dampak buruk sampah plastik di lingkungan.</p>
+                        <a href="#readmore1">Baca selengkapnya</a>
+                    </div>
+                    <div class="news-card">
+                        <h4>Inovasi Daur Ulang Terbaru</h4>
+                        <p>Teknologi terbaru dalam mendaur ulang sampah anorganik yang sulit terurai.</p>
+                        <a href="#readmore2">Baca selengkapnya</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Maps -->
+            <section id="location">
+                <h3>Lokasi Kami</h3>
+                <p>Kunjungi pusat pengelolaan sampah atau bank sampah terdekat untuk informasi lebih lanjut.</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.2512101543584!2d112.62232731477397!3d-7.966620694263689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd629c7c4f5a7e1%3A0x7c5b5c1085f8f0cd!2sSigura%20Gura%2C%20Kec.%20Lowokwaru%2C%20Kota%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sen!2sid!4v1618292471114!5m2!1sen!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+
+            <!-- FAQ -->
+            <section id="faq">
+                <h3>Pertanyaan Umum</h3>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h4>Apa itu Bank Sampah Digital?</h4>
+                        <p>Bank Sampah Digital adalah sistem yang memungkinkan Anda menyimpan dan mengelola sampah yang telah dipilah untuk didaur ulang.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Bagaimana cara bergabung dengan komunitas?</h4>
+                        <p>Anda bisa menghubungi kami melalui formulir kontak atau melalui media sosial kami untuk bergabung.</p>
+                    </div>
+                </div>
+            </section>
+
+
+        <div id="content">
+            <article>
+                <h2>Mengenal Jenis-Jenis Sampah</h2>
+                <p>
+                    Memahami jenis sampah sangat penting agar kita dapat mengelola dan mendaur ulang dengan tepat.
+                </p>
+                <ul>
+                    <li><b>Sampah Organik</b></li>
+                    <p>
+                        Sampah yang berasal dari sisa-sisa bahan alami seperti sayuran, buah, daun, dan sisa makanan. 
+                        Sampah organik dapat terurai secara alami dan sering kali diolah menjadi kompos.
+                    </p>
+
+                    <li><b>Sampah Anorganik</b></li>
+                    <p>
+                        Sampah yang sulit terurai dan tidak berasal dari alam, seperti plastik, kaca, logam, dan karet. 
+                        Sampah ini bisa didaur ulang menjadi barang baru jika dikelola dengan benar.
+                    </p>
+
+                    <li><b>Sampah B3 (Bahan Berbahaya dan Beracun)</b></li>
+                    <p>
+                        Jenis sampah ini mengandung bahan berbahaya seperti baterai, lampu neon, obat-obatan, dan produk kimia rumah tangga. 
+                        Penanganan sampah B3 memerlukan perhatian khusus agar tidak mencemari lingkungan.
+                    </p>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Tips Mengurangi Sampah Rumah Tangga</h2>
+                <p>
+                    Mengurangi sampah rumah tangga adalah langkah penting untuk menjaga kebersihan lingkungan dan mengurangi dampak negatif pada bumi. 
+                    Dengan kebiasaan sederhana seperti memilah sampah dan memilih produk ramah lingkungan, kita bisa membantu mengurangi penumpukan sampah dan polusi. 
+                    Berikut beberapa tips praktis yang bisa Anda terapkan untuk mendukung gaya hidup lebih berkelanjutan.
+                </p>
+                <ul>
+                    <li><b>Kurangi Penggunaan Plastik Sekali Pakai</b></li>
+                    <p>
+                        Bawa tas belanja sendiri saat berbelanja. Pilih produk dengan kemasan yang dapat didaur ulang atau beli dalam jumlah besar untuk mengurangi sampah kemasan.
+                    </p>
+
+                    <li><b>Daur Ulang dan Gunakan Kembali</b></li>
+                    <p>
+                        Pisahkan sampah organik dan anorganik, serta kirimkan sampah anorganik ke pusat daur ulang.
+                        Untuk barang-barang seperti botol, toples, atau kantong plastik bersih, coba gunakan kembali untuk keperluan lain dirumah.
+                    </p>
+
+                    <li><b>Pilah Sampah Secara Teratur</b></li>
+                    <p>
+                        Mengelompokkan sampah sesuai jenisnya memudahkan proses daur ulang. 
+                        Sampah organik bisa diolah menjadi kompos, sedangkan sampah anorganik bisa dibawa ke bank sampah atau pusat daur ulang.
+                    </p>
+
+                    <li><b>Komposkan Sampah Organik</b></li>
+                    <p>
+                        Sisa makanan, sayuran, dan buah dapat dijadikan kompos alami untuk tanaman.
+                        Membuat kompos sendiri juga mengurangi jumlah sampah yang dikirim ke TPA.
+                    </p>
+
+                    <li><b>Pillh Produk yang Tahan Lama dan Bisa Digunakan Ulang</b></li>
+                    <p>
+                        Investasikan pada produk berkualitas yang tahan lama seperti peralatan dapur stainless stell, botol minum kaca atau logam, 
+                        dan kantong makanan silikon. Produk-produk ini mengurangi kebutuhan barang sekali pakai.
+                    </p>
+                </ul>
+            </article>
+        </div>
+
+        <section id="infographic">
+            <h3>Statistik Pengelolaan Sampah</h3>
+            <div class="infographic-container">
+                <div class="stat-card">
+                    <h4>Sampah Daur Ulang</h4>
+                    <p>45% sampah bisa didaur ulang di rumah tangga.</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Sampah Plastik</h4>
+                    <p>25 juta ton sampah plastik dihasilkan setiap tahun.</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Pengurangan Sampah</h4>
+                    <p>Pengurangan 50% sampah plastik dapat mengurangi dampak lingkungan secara signifikan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h3>Testimoni Komunitas</h3>
+            <div class="testimonial-card">
+                <p>"Sistem pengelolaan sampah ini sangat membantu kami untuk mengurangi sampah di lingkungan!" - Pramudya</p>
+            </div>
+            <div class="testimonial-card">
+                <p>"Komunitas ini memberikan edukasi yang sangat berguna bagi keluarga kami dalam mengelola sampah." - Swasti</p>
+            </div>
+        </section>
+
+        <section id="join">
+            <h3>Bergabung dengan Komunitas Kami</h3>
+            <p>Jadilah bagian dari gerakan pengelolaan sampah yang lebih baik dan berbagi pengetahuan dengan sesama.</p>
+            <button onclick="joinCommunity()">Gabung Komunitas</button>
+        </section>
+
+        <aside>
+            <h3>Inovasi dalam Pengelolaan Sampah</h3>
+            <img src="pelatihan-2-UM-Palopo-sayur-urban-farming-768x432.jpg" alt="Komunitas Pengelolaan Sampah" class="community-photo" width="100%">
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h4>Tentang Kami</h4>
+                <p>
+                    Sistem Pengelolaan Sampah Digital adalah platform yang berfokus pada solusi digital untuk pengelolaan sampah. 
+                    Misi kami adalah menciptakan lingkungan yang lebih bersih melalui edukasi, kolaborasi, dan inovasi.
+                </p>
+            </div>
+
+            <div class="footer-section contact">
+                <h4 id="kontak">Kontak Kami</h4>
+                <p>
+                    Email: <a href="mailto:danielmanalu2020@gmail.com">danielmanalu2020@gmail.com</a>
+                     | Telp: +62 81265543206 | Alamat: Sigura-gura, Kota Malang</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sistem Pengelolaan Sampah Digital. Semua Hak Dilindungi.</p>
+            <p>Ikuti kami di <a href="#facebook">Facebook</a> | <a href="#instagram">Instagram</a> | <a href="#twitter">Twitter</a></p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showAlert() {
+            alert("Terima kasih telah tertarik dengan Sistem Pengelolaan Sampah Digital!");
+        }
+        function joinCommunity() {
+            alert("Silakan hubungi admin untuk bergabung dengan komunitas kami.");
+        }
+
+        // Slideshow Script
+        let currentIndex = 0;
+        let slides = document.querySelectorAll('.slide');
+        
+        function showSlides() {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+            currentIndex++;
+            if (currentIndex > slides.length) { currentIndex = 1 }
+            slides[currentIndex - 1].style.display = 'block';
+            setTimeout(showSlides, 3000); // Change image every 3 seconds
+        }
+        showSlides();
+    </script>
+
+</body>
+</html>
